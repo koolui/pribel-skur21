@@ -1,0 +1,137 @@
+// Import necessary styling for demo only (You dont need this)
+@import 'demo/ads.scss';
+@import 'demo/demo.scss';
+
+// Import variable
+@import 'vars.scss';
+
+
+body {
+    font-size: $root-font-size;
+    color: $base-color;
+    background-color: $background-color;
+}
+
+// Begin pricing table styling
+.koolui-pribel-skur21 {
+    font-family: $custom-google-font;
+    padding: $gap * 2 0;
+    
+    // Pricing table item
+    .item {
+        border-radius: $item-border-radius;
+        margin-bottom: $gap * 1.5;
+        padding: $gap;
+        position:relative;
+        box-shadow: inset 0 0 0 2px rgba($base-color,.2);
+
+        // item 01
+        &--01 {
+            .item {
+                &__heading__icon .koolicon, &__pricing p {
+                    color: $item-color-01;
+                }
+            }
+        }
+
+        // item 02
+        &--02 {
+            color: $text-color;
+            background-color: $base-color;
+            .item {
+                &__heading__icon .koolicon, &__pricing p {
+                    color: $item-color-02;
+                }
+                &__content ul {
+                    border-top-color: $border-color;
+                    border-bottom-color: $border-color;
+                    li {
+                        color: $text-muted-color;
+                    }
+                }
+                &__pricing p small {
+                    color: $text-color;
+                }
+            }
+        }
+
+        // item 03
+        &--03 {
+            .item {
+                &__heading__icon .koolicon, &__pricing p {
+                    color: $item-color-03;
+                }
+            }
+        }
+        
+        // Medium devices (tablets, 992px and up)
+        @media screen and (min-width: 992px) {
+            margin-bottom: 0;
+        }
+
+        // Typography
+        &__heading {
+            margin-bottom: $gap;
+
+            // Icon
+            &__icon {
+                width: $icon-size;
+                height: $icon-size;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: $gap;
+                .koolicon {
+                    font-size: 6rem;
+                }
+            }
+
+            // Texts
+            &__texts {
+                display: block;
+                h3 {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    line-height: 1.25rem;
+                    margin: 0;
+                }
+            }
+        }
+
+        // Item content
+        &__content {
+            ul {
+                margin: 0;
+                padding: $gap / 2 0;
+                list-style: none;
+                margin-bottom: $gap / 3;
+                border-top: $content-border-size solid rgba($base-color,.2);
+                border-bottom: $content-border-size solid rgba($base-color,.2);
+                font-family: $custom-google-font-2;
+                li {
+                    line-height: $list-item-height;
+                    margin: 0;
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        // Pricing
+        &__pricing {
+            p {
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 2rem;
+                margin: 0;
+                small {
+                    display: block;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    margin: 0;
+                    color: $base-color;
+                }
+            }
+        }
+    }
+}

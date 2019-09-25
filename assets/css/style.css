@@ -1,0 +1,160 @@
+/*!
+ * pribel-skur21
+ * Free HTML Pricing Table - Bootstrap 4 Template #21
+ * git+https://github.com/koolui/pribel-skur21.git
+ * @author Kool UI Studio
+ * @version 1.0.0
+ * Copyright 2019. SEE LICENSE IN README.md licensed.
+ */
+.adscard {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 15px auto;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5); }
+  .adscard:after {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    content: "Affiliate";
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 3px 5px;
+    border-radius: 0 5px;
+    font-size: 10px; }
+  .adscard--live {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .adscard__img {
+    border-radius: 3px; }
+    .adscard__img img {
+      width: 80px;
+      border-radius: 3px; }
+  .adscard__caption {
+    margin: 0;
+    line-height: 16px;
+    font-size: 14px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .adscard__caption a {
+      text-decoration: none;
+      color: #ffffff; }
+      .adscard__caption a:hover {
+        text-decoration: underline; }
+    .adscard__caption span {
+      display: block; }
+    .adscard__caption__secondary {
+      font-size: 12px;
+      margin-top: 5px; }
+      .adscard__caption__secondary > a {
+        color: rgba(255, 255, 255, 0.7); }
+
+.livedemo {
+  padding-top: 80px; }
+  .livedemo nav .form-inline .btn {
+    margin-right: 6px; }
+    .livedemo nav .form-inline .btn:last-child {
+      margin-right: 0; }
+  .livedemo .footerdemo {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    color: #ffffff; }
+    .livedemo .footerdemo a {
+      color: #ffffff;
+      text-decoration: underline; }
+
+body {
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #3C485E; }
+
+.koolui-pribel-skur21 {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 60px 0; }
+  .koolui-pribel-skur21 .item {
+    border-radius: 8px;
+    margin-bottom: 45px;
+    padding: 30px;
+    position: relative;
+    -webkit-box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
+            box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2); }
+    .koolui-pribel-skur21 .item--01 .item__heading__icon .koolicon, .koolui-pribel-skur21 .item--01 .item__pricing p {
+      color: #DB4B39; }
+    .koolui-pribel-skur21 .item--02 {
+      color: #222827;
+      background-color: #FFFFFF; }
+      .koolui-pribel-skur21 .item--02 .item__heading__icon .koolicon, .koolui-pribel-skur21 .item--02 .item__pricing p {
+        color: #527EA1; }
+      .koolui-pribel-skur21 .item--02 .item__content ul {
+        border-top-color: #EFEEF3;
+        border-bottom-color: #EFEEF3; }
+        .koolui-pribel-skur21 .item--02 .item__content ul li {
+          color: #9B9B9B; }
+      .koolui-pribel-skur21 .item--02 .item__pricing p small {
+        color: #222827; }
+    .koolui-pribel-skur21 .item--03 .item__heading__icon .koolicon, .koolui-pribel-skur21 .item--03 .item__pricing p {
+      color: #FE9901; }
+    @media screen and (min-width: 992px) {
+      .koolui-pribel-skur21 .item {
+        margin-bottom: 0; } }
+    .koolui-pribel-skur21 .item__heading {
+      margin-bottom: 30px; }
+      .koolui-pribel-skur21 .item__heading__icon {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-bottom: 30px; }
+        .koolui-pribel-skur21 .item__heading__icon .koolicon {
+          font-size: 6rem; }
+      .koolui-pribel-skur21 .item__heading__texts {
+        display: block; }
+        .koolui-pribel-skur21 .item__heading__texts h3 {
+          font-size: 1.5rem;
+          font-weight: 600;
+          line-height: 1.25rem;
+          margin: 0; }
+    .koolui-pribel-skur21 .item__content ul {
+      margin: 0;
+      padding: 15px 0;
+      list-style: none;
+      margin-bottom: 10px;
+      border-top: 2px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      font-family: "Playfair Display", serif; }
+      .koolui-pribel-skur21 .item__content ul li {
+        line-height: 30px;
+        margin: 0;
+        font-size: 1rem; }
+    .koolui-pribel-skur21 .item__pricing p {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 2rem;
+      margin: 0; }
+      .koolui-pribel-skur21 .item__pricing p small {
+        display: block;
+        font-weight: 400;
+        font-size: 1rem;
+        margin: 0;
+        color: #FFFFFF; }

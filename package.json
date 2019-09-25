@@ -1,0 +1,35 @@
+{
+  "name": "pribel-skur21",
+  "version": "1.0.0",
+  "description": "Free HTML Pricing Table - Bootstrap 4 Template #21",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koolui/pribel-skur21.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "bootstrap",
+    "freebie",
+    "pricingtable",
+    "pricing"
+  ],
+  "author": "Kool UI Studio",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/koolui/pribel-skur21/issues"
+  },
+  "homepage": "https://github.com/koolui/pribel-skur21#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-sass": "^4.0.2"
+  }
+}
